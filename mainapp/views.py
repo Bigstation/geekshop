@@ -8,6 +8,7 @@ from django.shortcuts import render
 
 def index(request):
     """Разная логика"""
+    """Всяко разно"""
     return render(request, 'mainapp/index.html')
 
 def products(request):
