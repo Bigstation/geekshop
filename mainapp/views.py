@@ -46,6 +46,8 @@ def products(request):
              'price': '2 890,00 руб.',
              'material': 'Легкая эластичная ткань сирсакер Фактурная ткань.',
              }
-        ]
+        ],
+
+        'categories': ['Новинки', 'Одежда', 'Обувь', 'Аксесуары', 'Подарки']
     }
     return render(request, 'mainapp/products.html', context)
