@@ -13,7 +13,7 @@ from mainapp.models import Product, ProductCategory
 def index(request):
     return render(request, 'mainapp/index.html')
 
-def products(request):
+def products(request, id=None):
     context = {
         'data': datetime.date.today(),
         'products': Product.objects.all(),
