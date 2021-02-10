@@ -31,7 +31,6 @@ def basket_remove(request, id):
     return HttpResponseRedirect(request.META.get('HTTP_REFERER'))
 
 
-@login_required()
 def basket_edit(request, id, quantity):
     quantity = int(quantity)
     basket = Basket.objects.get(id=int(id))
