@@ -1,0 +1,16 @@
+{
+  'access_token': '8bf7366fd7fa4691c06c741b4c7a46d35c954bfd7a4e211413eb8c888c6d0982d889e51b5bff314177c29',
+  'expires_in': 86400,
+  'user_id': 188086250,
+  'email': 'av@spcomp.ru',
+  'first_name': 'Александр',
+  'id': 188086250,
+  'last_name': 'Великороднов',
+  'screen_name': 'id188086250',
+  'nickname': '',
+  'photo': 'https://sun1.ufanet.userapi.com/s/v1/if1/ByUVqF9JzxVP3J1723iIU002wQT8WYcmcNUhIlBDYkTnnqcSfnZR2GZrnclH6a81frNcOGW9.jpg?size=50x0&quality=96&crop=88,75,541,541&ava=1',
+  'user_photo': 'https://sun1.ufanet.userapi.com/s/v1/if1/ByUVqF9JzxVP3J1723iIU002wQT8WYcmcNUhIlBDYkTnnqcSfnZR2GZrnclH6a81frNcOGW9.jpg?size=50x0&quality=96&crop=88,75,541,541&ava=1'
+}
+##########
+{'response': [{'first_name': 'Александр', 'id': 188086250, 'last_name': 'Великороднов', 'can_access_closed': True, 'is_closed': False, 'sex': 2, 'bdate': '11.7.1977', 'about': ''}]
+}
