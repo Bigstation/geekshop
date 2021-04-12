@@ -1,0 +1,29 @@
+{% extends 'mainapp/base.html' %}
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block title %}
+            {{ title|title }}
+        {% endblock %}
+    </title>
+    {% block css %}
+        
+    {% endblock %}
+    {% block js %}
+        <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+        <script src="{% static 'js/order_scripts.js' %}"></script>
+    {% endblock %}
+</head>
+<body>
+    <div class="order_container">
+        {% block content %}
+
+        {% endblock %}
+    </div>
+</body>
+</html>
+
+
