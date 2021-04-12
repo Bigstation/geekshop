@@ -5,7 +5,6 @@ from mainapp.models import Product
 
 
 class OrderForm(forms.ModelForm):
-
     class Meta:
         model = Order
         exclude = ('user',)
@@ -29,4 +28,3 @@ class OrderItemForm(forms.ModelForm):
             field.widget.attrs['class'] = 'form-control'
 
         # self.fields['product'].queryset = Product.objects.order_by('name')
-
